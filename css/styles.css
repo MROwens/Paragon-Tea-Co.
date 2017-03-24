@@ -92,22 +92,29 @@ body{
 }
 
 .teas h1{
-  margin: 20px auto;
+  margin: 80px auto;
   border-bottom: 2px solid #454546;
   width: 300px;
   text-align: center;
-  font-size: 3em;
+  font-size: 4.3em;
+}
+
+.teas section{
+  margin: 25px 0;
 }
 
 .teas h2{
   font-family: 'Bad Script', cursive;
-  font-size: 3.5em;
+  font-size: 4.1em;
   margin-bottom: 20px;
 }
 
-.teas ul{
-  list-style-type: none;
+.teas p{
+  font-size: 1.7em;
+  margin-top: 25px;
+  font-weight: 300;
 }
+
 
 
 
