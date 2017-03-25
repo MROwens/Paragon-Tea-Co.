@@ -192,16 +192,30 @@ header nav ul li a:hover{
 
 .contact form{
   font-size: .5em;
-  margin-top: 50px;
+  margin-top: 2px;
   font-weight: 300;
+}
+
+.form-group{
+  margin: 50px 0;
 }
 
 .contact label{
   font-weight: 300;
 }
-
 .contact h2{
   font-weight: 300;
+}
+
+.contact button{
+  margin: 15px 0;
+  width: 140px;
+  height: 50px;
+  background-color: #3B8221;
+  color: #F0EFE0;
+  border: none;
+  font-size: 1.5em;
+  float: right;
 }
 
 /* Shop Page*/
@@ -242,6 +256,14 @@ header nav ul li a:hover{
   font-weight: 300;
 }
 
+.sub_nav a{
+  color: #F0EFE0;
+}
+
+.sub_nav a:hover{
+  color: #3B8221;
+}
+
 .tea_grid{
   margin: 10px 10px;
 }
@@ -264,11 +286,20 @@ header nav ul li a:hover{
 .tea_grid p{
   text-align: center;
   font-size: 1.14em;
-  margin: 5px 0 5px 70px;
+  margin: 5px 0 5px 80px;
 }
 
 .tea_grid nav{
   margin-left: 580px;
+}
+
+.tea_grid a{
+  color: #3B8221;
+}
+
+.tea_grid a:hover{
+  color: #60B853;
+
 }
 
 /* Sub-Shop Page*/
@@ -311,6 +342,29 @@ header nav ul li a:hover{
   background: #60B853;
 }
 
+.suggestions{
+  margin-top: 110px;
+}
+
+.suggestions::before{
+  border-top: 2px solid #454546;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.suggestions h3{
+  margin: 53px 0 30px 0;
+}
+
+.suggestions img{
+  margin: 10px;
+}
+
+.suggestions p{
+  text-align: center;
+  margin: 20px 0;
+}
+
 
 /* Footer */
 
@@ -339,7 +393,7 @@ header nav ul li a:hover{
 
 .footer input{
   padding: 10px;
-  width: 200px;
+  width: 300px;
 }
 
 .footer button{
@@ -356,4 +410,34 @@ header nav ul li a:hover{
 .footer h2{
   font-size: 3em;
   font-weight: 300;
+}
+
+.footer::before{
+  border-top: 2px solid #454546;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.footer ul::before{
+  border-top: 2px solid #454546;
+  width: 200px;
+}
+
+.media li{
+  float: left;
+  margin: 5px;
+}
+
+.clear{
+  clear:both;
+}
+
+@media(max-width:1194px){
+
+  .header p{
+    display: none;
+  }
+
+
+
 }
